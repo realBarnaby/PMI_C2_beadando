@@ -54,7 +54,6 @@ public class Bombs {
 }
 
 
-//subclass
 class Bomb{
 
 

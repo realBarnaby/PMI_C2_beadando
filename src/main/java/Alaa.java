@@ -58,6 +58,7 @@ public class Alaa {
 
     }
 
+    Potion vm = new Potion();
 
     //terminal
     public void herbalist() {
@@ -67,13 +68,13 @@ public class Alaa {
 
         //options
         System.out.println("\n1. List of potions");
-        System.out.println("2. Potion brewing");
-        System.out.println("3. List of bombs");
-        System.out.println("4. Bomb crafting");
-        System.out.println("5. List of oils");
-        System.out.println("6. Oil crafting");
-        System.out.println("7. Buy ingredients");
-        System.out.println("8. Farewell");
+        System.out.println("2. List of bombs");
+        System.out.println("3. List of oils");
+        System.out.println("4. Buy potions");
+        System.out.println("5. Modify potions in cart");
+        System.out.println("6. Delete potions from cart");
+        System.out.println("9. Print contents of shopping cart");
+        System.out.println("7. Farewell");
         System.out.print("Choose from the services above: ");
         String strAnswer = button.nextLine();
 
@@ -88,52 +89,36 @@ public class Alaa {
                     potions();
                     break;
 
-                //Potion brewing
-                case 2:
-                    System.out.println("\nHere you can brew potions");
-                    System.out.println("For a modest fee of course");
-                    System.out.println("Which potion would you like to brew?");
-                    brewPotion();
-                    break;
-
                 //List of bombs
-                case 3:
+                case 2:
                     System.out.println("\nListing bombs..\n");
                     bombs();
                     break;
 
-                //Bomb crafting
-                case 4:
-                    System.out.println("\nYou like throwing bombs and watch them break havoc?");
-                    System.out.println("Hah! You have a fine taste mate");
-                    System.out.println("If you're interested I can surely make you some fresh toy");
-                    System.out.println("I even give you a discount as a token of my appreciation!");
-                    System.out.println("So which bomb do we start with?");
-                    craftBomb();
-                    break;
-
                 //List of oils
-                case 5:
+                case 3:
                     System.out.println("\nListing oils..\n");
                     oils();
                     break;
 
-                //Oil crafting
-                case 6:
-                    System.out.println("\nOh yes, oils to enhance your blade with");
-                    System.out.println("Sure I can help you with that");
-                    System.out.println("Show your coin and we can get to it");
-                    System.out.println("Good. Now tell me which one do you want");
-                    craftOil();
+                //Buy potions
+                case 4:
+                    vm.buyPotion();
                     break;
 
-                //Buy ingredients
+                //Modify potions
+                case 5:
+                    //modifyPotion();
+                    break;
+
+                //Delete potions
+                case 6:
+                    vm.deletePotion();
+                    break;
+
+                //Print contents of shopping cart
                 case 7:
-                    System.out.println("\nYou need ingredients?");
-                    System.out.println("As I thought! It's your lucky day then I tell you");
-                    System.out.println("I have everything you would ever need");
-                    System.out.println("But first make your choice");
-                    buy();
+                    //printCart();
                     break;
 
                 //Farewell
@@ -151,33 +136,16 @@ public class Alaa {
 
             //options
             System.out.println("\n1. List of potions");
-            System.out.println("2. Potion brewing");
-            System.out.println("3. List of bombs");
-            System.out.println("4. Bomb crafting");
-            System.out.println("5. List of oils");
-            System.out.println("6. Oil crafting");
-            System.out.println("7. Buy ingredients");
+            System.out.println("2. List of bombs");
+            System.out.println("3. List of oils");
+            System.out.println("4. Buy potions");
+            System.out.println("5. Modify potions in cart");
+            System.out.println("6. Delete potions from cart");
+            System.out.println("9. Print contents of shopping cart");
             System.out.println("8. Farewell");
             System.out.print("Choose from the services above: ");
             strAnswer = button.nextLine();
         }
-    }
-
-
-    public void brewPotion() {
-        System.out.println("b");
-    }
-
-    public void craftBomb() {
-        System.out.println("c");
-    }
-
-    public void craftOil() {
-        System.out.println("d");
-    }
-
-    public void buy() {
-        System.out.println("a");
     }
 
 }

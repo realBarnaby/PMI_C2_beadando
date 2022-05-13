@@ -7,6 +7,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Potions {
 
@@ -76,7 +77,6 @@ public class Potions {
 }
 
 
-//subclass
 class Potion{
 
 
@@ -144,6 +144,79 @@ class Potion{
         }
 
         System.out.println(pdb);
+    }
+
+    List<Potions> cart = new ArrayList<>();
+
+
+    //methods
+    //create
+    public void buyPotion() {
+
+        Scanner button = new Scanner(System.in);
+
+        System.out.println("Choose a name of a potion you want to buy: ");
+        String name = button.nextLine();
+
+
+        for (int i=0; i<24; i++) {
+
+            if (p.get(i).potionName.equals(name)) {
+                cart.add(p.get(i));
+            }
+
+        }
+
+    }
+
+    //modify
+    public void modifyPotion() {
+
+        Scanner button = new Scanner(System.in);
+
+        System.out.println("Choose a name of a potion you want to modify: ");
+        String name = button.nextLine();
+
+        System.out.println("Choose the name of the potion you want to modify the element to: ");
+        String newName = button.nextLine();
+
+        for (int i=0; i<24; i++) {
+
+            if (p.get(i).potionName.equals(name)) {
+
+                //cart.get(i) = p.get(newName);
+
+            }
+
+        }
+
+    }
+
+
+    //delete
+    public void deletePotion() {
+
+        Scanner button = new Scanner(System.in);
+
+        System.out.println("Choose a name of a potion you want to delete: ");
+        String name = button.nextLine();
+
+
+        for (int i=0; i<24; i++) {
+
+            if (p.get(i).potionName.equals(name)) {
+                cart.remove(p.get(i));
+            }
+
+        }
+
+    }
+
+    //print
+    public void printCart() {
+
+
+
     }
 
 }
