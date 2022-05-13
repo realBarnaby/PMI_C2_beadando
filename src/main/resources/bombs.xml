@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<bombs>
+
+    <bomb>
+        <name>Devil's puffball</name>
+        <ingredients>2Aether,1Hydragenum,1Rebis</ingredients>
+        <effect>Sprays a cloud of poison, affecting nearby enemies; those resistant to poison might not be harmed</effect>
+    </bomb>
+
+    <bomb>
+        <name>Dragon's dream</name>
+        <ingredients>2Hydragenum,1Quebrith,1Rebis,1Vermillion</ingredients>
+        <effect>Releases a cloud of flammable gas which causes a destructive explosion when ignited</effect>
+    </bomb>
+
+    <bomb>
+        <name>King and Queen</name>
+        <ingredients>1Aether,2Rebis</ingredients>
+        <effect>Evokes fear in the hearts of opponents</effect>
+    </bomb>
+
+    <bomb>
+        <name>Samum</name>
+        <ingredients>1Aether,2Rebis,1Vermillion</ingredients>
+        <effect>Stuns any creatures within range, provided they are not immune to this effect</effect>
+    </bomb>
+
+    <bomb>
+        <name>Zerrikanian sun</name>
+        <ingredients>1Aether,1Hydragenum,1Quebrith,1Vermillion</ingredients>
+        <effect>Releases a flash of light, blinding all nearby opponents</effect>
+    </bomb>
+
+</bombs>

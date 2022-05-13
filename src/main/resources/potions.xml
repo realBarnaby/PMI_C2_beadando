@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<potions>
+
+    <potion>
+        <name>Bindweed</name>
+        <ingredients>1Aether,1Quebrith,1Vermillion</ingredients>
+        <effect>Acid resistance increased by 70%</effect>
+        <duration>8</duration>
+        <toxicity>20</toxicity>
+    </potion>
+
+    <potion>
+        <name>Black blood</name>
+        <ingredients>3Vitriol,1Rebis,1Aether</ingredients>
+        <effect>Monsters feeding on Geralt die immediately</effect>
+        <duration>8</duration>
+        <toxicity>25</toxicity>
+    </potion>
+
+    <potion>
+        <name>Blizzard</name>
+        <ingredients>2Vitriol,2Rebis</ingredients>
+        <effect>Dodge Efficiency increased by 50%; Parry Efficiency increased by 50%</effect>
+        <duration>0.3</duration>
+        <toxicity>20</toxicity>
+    </potion>
+
+    <potion>
+        <name>Cat</name>
+        <ingredients>1Rebis,2Quebrith</ingredients>
+        <effect>Seeing in the dark</effect>
+        <duration>8</duration>
+        <toxicity>14</toxicity>
+    </potion>
+
+    <potion>
+        <name>De Vries' Extract</name>
+        <ingredients>1Rebis,1Aether,2Quebrith,1Hydragenum</ingredients>
+        <effect>Ability to see through walls</effect>
+        <duration>1</duration>
+        <toxicity>20</toxicity>
+    </potion>
+
+    <potion>
+        <name>Full moon</name>
+        <ingredients>1Quebrith,2Hydragenum,2Vermillion</ingredients>
+        <effect>Maximum Vitality doubled</effect>
+        <duration>8</duration>
+        <toxicity>25</toxicity>
+    </potion>
+
+    <potion>
+        <name>Golden oriole</name>
+        <ingredients>2Vitriol,2Aether</ingredients>
+        <effect>Poison resistance increased by 70%</effect>
+        <duration>8</duration>
+        <toxicity>20</toxicity>
+    </potion>
+
+    <potion>
+        <name>Kiss</name>
+        <ingredients>2Vitriol,1Vermillion</ingredients>
+        <effect>Resistance to Bleeding increased by 70%</effect>
+        <duration>8</duration>
+        <toxicity>20</toxicity>
+    </potion>
+
+    <potion>
+        <name>Maribor forest</name>
+        <ingredients>2Rebis,1Aether,1Quebrith</ingredients>
+        <effect>Maximum Endurance increased by 50%</effect>
+        <duration>8</duration>
+        <toxicity>20</toxicity>
+    </potion>
+
+    <potion>
+        <name>Perfume</name>
+        <ingredients>1Vitriol,1Aether,1Quebrith</ingredients>
+        <effect>Attack efficiency reduced by 50%</effect>
+        <duration>8</duration>
+        <toxicity>14</toxicity>
+    </potion>
+
+    <potion>
+        <name>Petri's philter</name>
+        <ingredients>2Rebis,1Quebrith,1Hydragenum,1Vermillion</ingredients>
+        <effect>Attack efficiency reduced by 50%</effect>
+        <duration>8</duration>
+        <toxicity>30</toxicity>
+    </potion>
+
+    <potion>
+        <name>Shrike</name>
+        <ingredients>1Rebis,1Quebrith,1Hydragenum,2Vermillion</ingredients>
+        <effect>Critical effect Pain inflicted on foes wounding Geralt</effect>
+        <duration>8</duration>
+        <toxicity>25</toxicity>
+    </potion>
+
+    <potion>
+        <name>Swallow</name>
+        <ingredients>1Vitriol,2Rebis,1Aether</ingredients>
+        <effect>Modestly accelerates Vitality regeneration</effect>
+        <duration>2</duration>
+        <toxicity>20</toxicity>
+    </potion>
+
+    <potion>
+        <name>Tawny owl</name>
+        <ingredients>1Vitriol,2Aether</ingredients>
+        <effect>Significantly accelerates Endurance regeneration</effect>
+        <duration>8</duration>
+        <toxicity>20</toxicity>
+    </potion>
+
+    <potion>
+        <name>Thunderbolt</name>
+        <ingredients>1Vitriol,1Rebis,1Hydragenum,2Vermillion</ingredients>
+        <effect>Damage inflicted increased by 100%; Dodge efficiency reduced to 50%; Parry efficiency reduced to 50%</effect>
+        <duration>8</duration>
+        <toxicity>25</toxicity>
+    </potion>
+
+    <potion>
+        <name>White honey</name>
+        <ingredients>1Vitriol,1Rebis,1Aether</ingredients>
+        <effect>Reduces Toxicity to zero and cancels the effects of other potions</effect>
+        <duration>0</duration>
+        <toxicity>0</toxicity>
+    </potion>
+
+    <potion>
+        <name>White Raffard's decoction</name>
+        <ingredients>1Vitriol,1Rebis,2Hydragenum</ingredients>
+        <effect>Immediately restores some lost Vitality</effect>
+        <duration>0</duration>
+        <toxicity>25</toxicity>
+    </potion>
+
+    <potion>
+        <name>Willow</name>
+        <ingredients>2Aether,1Quebrith</ingredients>
+        <effect>Immunity to Stun and Knockdown effects</effect>
+        <duration>8</duration>
+        <toxicity>25</toxicity>
+    </potion>
+
+    <potion>
+        <name>Wives' tears</name>
+        <ingredients>1Rebis,1Aether,1Quebrith</ingredients>
+        <effect>Neutralizes the effects of alcohol intoxication</effect>
+        <duration>0</duration>
+        <toxicity>14</toxicity>
+    </potion>
+
+    <potion>
+        <name>Wolf</name>
+        <ingredients>2Vitriol,2Hydragenum,1Vermillion</ingredients>
+        <effect>Chance of inflicting critical effect Precise Hit increased by 50%</effect>
+        <duration>8</duration>
+        <toxicity>20</toxicity>
+    </potion>
+
+    <potion>
+        <name>Wolverine</name>
+        <ingredients>2Aether,1Quebrith,1Hydragenum,1Vermillion</ingredients>
+        <effect>Upon consumption — Intoxication: Attack efficiency reduced by 50%</effect>
+        <duration>8</duration>
+        <toxicity>20</toxicity>
+    </potion>
+
+    <potion>
+        <name>Fisstech</name>
+        <ingredients>1Quebrith,3Hydragenum,1Vermillion</ingredients>
+        <effect>A strong drug with a long duration</effect>
+        <duration>8</duration>
+        <toxicity>0</toxicity>
+    </potion>
+
+    <potion>
+        <name>White gull</name>
+        <ingredients>2Vitriol,1Rebis</ingredients>
+        <effect>Alchemical base used to make other potions</effect>
+        <duration>3</duration>
+        <toxicity>0</toxicity>
+    </potion>
+
+</potions>
+

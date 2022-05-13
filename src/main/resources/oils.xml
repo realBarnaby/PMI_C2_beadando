@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<oils>
+
+    <oil>
+        <name>Brown oil</name>
+        <ingredients>1Rebis,1Aether,1Quebrith,2Vermillion</ingredients>
+        <effect>Considerable chance of causing Bleeding in foes with every hit</effect>
+    </oil>
+
+    <oil>
+        <name>Crinfrid oil</name>
+        <ingredients>1Vitriol,1Aether,1Hydragenum,2Vermillion</ingredients>
+        <effect>Considerable chance of inflicting Pain on foes with every hit</effect>
+    </oil>
+
+    <oil>
+        <name>Hanged Man's Venom</name>
+        <ingredients>1Vitriol,1Aether,1Rebis,1Hydragenum,1Vermillion</ingredients>
+        <effect>Considerable chance of Poisoning foes with every hit</effect>
+    </oil>
+
+    <oil>
+        <name>Argentia</name>
+        <ingredients>1Rebis,2Quebrith,2Hydragenum</ingredients>
+        <effect>Damage inflicted increased by 60% (silver sword); Reduced Damage incurred (steel sword)</effect>
+    </oil>
+
+    <oil>
+        <name>Insectoid oil</name>
+        <ingredients>1Rebis,1Aether,1Quebrith,1Vermillion</ingredients>
+        <effect>Damage inflicted on insectoids increased by 100%</effect>
+    </oil>
+
+    <oil>
+        <name>Necrophage oil</name>
+        <ingredients>2Vitriol,1Aether</ingredients>
+        <effect>Damage inflicted on necrophages increased by 100%</effect>
+    </oil>
+
+    <oil>
+        <name>Ornitosaur oil</name>
+        <ingredients>1Vitriol,1Rebis,1Quebrith,1Hydragenum</ingredients>
+        <effect>Damage inflicted on ornithosaur increased by 100%</effect>
+    </oil>
+
+    <oil>
+        <name>Specter oil</name>
+        <ingredients>1Vitriol,1Rebis,1Aether</ingredients>
+        <effect>Damage inflicted on specters increased by 100%</effect>
+    </oil>
+
+    <oil>
+        <name>Vampire oil</name>
+        <ingredients>1Vitriol,2Quebrith,1Hydragenum,1Vermillion</ingredients>
+        <effect>Damage inflicted on vampires increased by 100%</effect>
+    </oil>
+
+</oils>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<ingredients>
+
+    <ingredient>
+        <name>Vitriol</name>
+        <price>10</price>
+        <quantity>50</quantity>
+    </ingredient>
+
+    <ingredient>
+        <name>Rebis</name>
+        <price>5</price>
+        <quantity>50</quantity>
+    </ingredient>
+
+    <ingredient>
+        <name>Aether</name>
+        <price>15</price>
+        <quantity>50</quantity>
+    </ingredient>
+
+    <ingredient>
+        <name>Quebrith</name>
+        <price>20</price>
+        <quantity>30</quantity>
+    </ingredient>
+
+    <ingredient>
+        <name>Hydragenum</name>
+        <price>25</price>
+        <quantity>20</quantity>
+    </ingredient>
+
+    <ingredient>
+        <name>Vermillion</name>
+        <price>30</price>
+        <quantity>10</quantity>
+    </ingredient>
+
+</ingredients>
